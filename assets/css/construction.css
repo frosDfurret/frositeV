@@ -12,4 +12,5 @@ img {
   right: 0;
   bottom: 0;
   image-rendering: pixelated;
+  cursor: url("/assets/media/cursorhover.cur"), default;
 }
