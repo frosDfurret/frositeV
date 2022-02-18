@@ -41,13 +41,15 @@ a {
 }
 
 .flexcontainer {
+  transition-property: opacity;
+  transition-duration: 1s;
   overflox-y: hidden;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
   align-items: center;
 	width: 90vw;
-  visibility: hidden;
+  opacity: 0%;
 }
 
 .flexcontainer > img {

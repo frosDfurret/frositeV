@@ -1,3 +1,4 @@
+
 image = document.getElementsByTagName('img')[0]
 image.addEventListener("click", flash);
 flashing = false
