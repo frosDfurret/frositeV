@@ -54,11 +54,11 @@ a {
   cursor: url("/assets/media/cursorhover.cur"), default;
   transition-property: width, margin;
   transition-duration: 0.2s;
-  width: 100px;
+  width: 90px;
   margin: 10px;
 }
 
 .flexcontainer > img:hover {
-  width: 110px;
+  width: 100px;
   margin: 5px;
 }
