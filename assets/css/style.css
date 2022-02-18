@@ -1,6 +1,8 @@
 html {
   background-color: black;
   cursor: url("/assets/media/cursor.cur"), default;
+  overflow-x: hidden;
+  overflox-y: hidden;
 }
 
 body {
@@ -29,3 +31,34 @@ a {
   object-fit: cover;
 }
 
+.flexcontainercontainer {
+  overflox-y: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 97vh;
+  width: 100%;
+}
+
+.flexcontainer {
+  overflox-y: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  align-items: center;
+	width: 90vw;
+  visibility: hidden;
+}
+
+.flexcontainer > img {
+  cursor: url("/assets/media/cursorhover.cur"), default;
+  transition-property: width, margin;
+  transition-duration: 0.2s;
+  width: 100px;
+  margin: 10px;
+}
+
+.flexcontainer > img:hover {
+  width: 110px;
+  margin: 5px;
+}
