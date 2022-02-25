@@ -15,10 +15,10 @@ function incrementCounter() {
 	counter++;
 }
 
-
-
 doCount = setInterval(function(){
   if (counter == len && document.getElementById('bg').currentTime > 1) {
   document.getElementById('load').classList.add('animate__slideOutUp')
-  clearInterval(doCount) }
+  clearInterval(doCount)
+  clearTimeout(wait)
+  }
 },100)
