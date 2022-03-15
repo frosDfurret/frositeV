@@ -19,38 +19,6 @@ a {
   cursor: url("/assets/media/cursorhover.cur"), default;
 }
 
-#load {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  z-index: 11;
-}
-
-#load > img {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100px;
-  filter: invert(100%);
-  image-rendering: pixelated;
-}
-
-#old-link {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  bottom: 10;
-  color: white;
-  width: 100px;
-}
-
 #bg {
   position: fixed;
   top: 0;
@@ -80,15 +48,11 @@ a {
 	display: flex;
 	/*flex-wrap: wrap;*/
   flex:none;
-  justify-content: center;
-  align-items: center;
-	width: 90vw;
-}
-
-.flexcontainer {
   flex-wrap: wrap;
   flex-shrink: 1;
   justify-content: center;
+  align-items: center;
+	width: 90vw;
 }
 
 .flexcontainer > img {
@@ -97,9 +61,4 @@ a {
   transition-duration: 0.11111111111s;
   width: 90px;
   margin: 10px;
-}
-
-.flexcontainer > img:hover {
-  width: 100px;
-  margin: 5px;
 }
