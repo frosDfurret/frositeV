@@ -1,3 +1,5 @@
+/*
+02/24/2024 removing this code for preservation purposes
 redirect = window.localStorage.getItem("redirect")
 if (redirect !== null) {
   if (redirect == "desktop" && !window.location['pathname'].includes("d")) {
@@ -14,3 +16,4 @@ if (redirect !== null) {
     window.location = "/"
   }
 }
+*/
